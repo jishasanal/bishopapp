@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:orientation="vertical" >
+ 
+ <ScrollView 
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="none" 
+        >
+    <LinearLayout 
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:orientation="vertical" >
+  <TextView
+        android:id="@+id/dbtxtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/dbedtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:ems="10"
+        android:inputType="number" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/dbtxtPname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="17dp"
+        android:text="@string/product"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <EditText
+        android:id="@+id/dbedtPname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/dbtxtQunty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:text="@string/quantity"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/dbedtQut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/dbbtninsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:onClick="newProduct"
+        android:text="@string/insert" />
+
+    <Button
+        android:id="@+id/dbbtnfind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="lookupProduct"
+        android:text="@string/find" />
+
+    <Button
+        android:id="@+id/dbbtndlt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete" 
+        android:onClick="removeProduct"/>
+
+    <Button
+        android:id="@+id/dbbtnup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:onClick="updateProduct" />
+
+    <Button
+        android:id="@+id/dbbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="RetriveAll"
+        android:text="@string/retrive" />
+ 
+ </LinearLayout>
+ 
+  </ScrollView>
+  <ListView
+       android:id="@+id/dblist"
+       android:layout_width="0dip"
+       android:layout_height="0dip"
+       android:layout_weight="1"
+       android:scrollbars="none" >
+     </ListView>
+  
+  </LinearLayout> 
+    
+ 
+ 

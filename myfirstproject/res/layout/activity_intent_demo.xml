@@ -1,0 +1,30 @@
+
+
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/starta" />
+
+    <Button
+        android:id="@+id/btnlaunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:text="@string/startb" />
+
+    <Button
+        android:id="@+id/btnexcpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="@string/startc" />
+    </LinearLayout>

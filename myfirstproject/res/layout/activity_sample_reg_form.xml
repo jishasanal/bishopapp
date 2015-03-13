@@ -1,0 +1,139 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reg1"
+            android:textSize="20sp"
+             android:layout_span="2"
+             android:background="#dcdcdc"
+             android:gravity="center"
+             android:padding="18dip"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </TableRow>
+     <TableRow
+         style="@style/CustomTableRowStyle">
+
+         <TextView
+             android:id="@+id/txtrfname"
+             style="@style/CustomTextViewStyle"
+             
+             
+             android:text="@string/Rfname"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <EditText
+             android:id="@+id/edtRfname"
+            android:layout_weight="1"
+             android:ems="10"
+             android:inputType="textPersonName" >
+
+             <requestFocus />
+         </EditText>
+
+     </TableRow>
+     <TableRow
+      style="@style/CustomTableRowStyle">
+
+         <TextView
+             android:id="@+id/txtrlname"
+             style="@style/CustomTextViewStyle"
+            
+             android:text="@string/Rlname"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <EditText
+             android:id="@+id/edtRlname"
+             android:layout_weight="1"
+             android:ems="10"
+             android:inputType="textPersonName" />
+
+    </TableRow>
+     <TableRow
+        style="@style/CustomTableRowStyle">
+
+         <TextView
+             android:id="@+id/txtRdob"
+              style="@style/CustomTextViewStyle"
+            
+             android:text="@string/Rdob"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <EditText
+             android:id="@+id/editText1"
+             android:layout_weight="1"
+             android:ems="10"
+             android:inputType="date" />
+
+    </TableRow>
+    <TableRow
+        
+      style="@style/CustomTableRowStyle">   
+      <TextView
+          
+         android:id="@+id/txtRsex"
+         style="@style/CustomTextViewStyle"
+        android:layout_width="5dp"
+         android:text="@string/Rsex"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+     <CheckBox
+         android:id="@+id/cbxRfemale"
+         android:layout_weight="1"
+         android:text="@string/Rfem" />
+
+     <CheckBox
+         android:id="@+id/cbxRmale"
+        
+         android:text="@string/Rmale" />
+
+    </TableRow>
+<TableRow
+     style="@style/CustomTableRowStyle">   
+      <TextView
+        android:id="@+id/txtRquali"
+         style="@style/CustomTextViewStyle"
+         android:layout_weight="1"
+        android:text="@string/Rquali"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <Spinner
+        android:id="@+id/spinner1"
+       android:paddingLeft="30dip"
+        android:spinnerMode="dropdown"/>
+
+  </TableRow>
+<TableRow 
+       style="@style/CustomTableRowStyle"> 
+<TextView
+    android:id="@+id/txtRemail"
+    style="@style/CustomTextViewStyle"
+   
+    android:text="@string/Remail"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+<EditText
+    android:id="@+id/edtRemail"
+   android:layout_weight="1"
+    android:ems="10"
+    android:inputType="textEmailAddress" />
+
+
+    </TableRow>
+<TableRow     style="@style/CustomTextViewStyle"
+     >
+<Button
+    android:id="@+id/btnsubmit"
+   
+    android:text="@string/Rsubmit" 
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="55dp"/>
+</TableRow>
+</TableLayout>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfirstproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.myfirstproject.RadioBtn"
+            android:label="@string/title_activity_radio_btn" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Imagebuttontest"
+            android:label="@string/title_activity_imagebuttontest" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.ToastTest"
+            android:label="@string/title_activity_toast" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Autocomplete"
+            android:label="@string/title_activity_autocomplete" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.CheckboxMainActivity"
+            android:label="@string/title_activity_checkbox_main" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Togglebtn"
+            android:label="@string/title_activity_togglebtn" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.RadioGrp"
+            android:label="@string/title_activity_radio_grp" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Linearlayout1"
+            android:label="@string/title_activity_linearlayout1" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Linear"
+            android:label="@string/title_activity_linear" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Eventhand1"
+            android:label="@string/title_activity_eventhand1" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.EventHand2"
+            android:label="@string/title_activity_event_hand2" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Eventhand3"
+            android:label="@string/title_activity_eventhand3" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Ontouch1"
+            android:label="@string/title_activity_ontouch1" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Linearlayoutss"
+            android:label="@string/title_activity_linearlayoutss" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Tablelayoutss"
+            android:label="@string/title_activity_tablelayoutss" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Absolutelayoutss"
+            android:label="@string/title_activity_absolutelayoutss" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Framelayoutss"
+            android:label="@string/title_activity_framelayoutss" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Gridviewlayoutss"
+            android:label="@string/title_activity_gridviewlayoutss" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Listviews"
+            android:label="@string/title_activity_listviews" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.StudentRegistration"
+            android:label="@string/title_activity_student_registration" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.SampleRegForm"
+            android:label="@string/title_activity_sample_reg_form" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.ArithmaticSpinner"
+            android:label="@string/title_activity_arithmatic_spinner" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Spinnerexample"
+            android:label="@string/title_activity_spinnerexample" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.ExampleActive"
+            android:label="@string/title_activity_example_active" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Scrolllist"
+            android:label="@string/title_activity_scrolllist" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.ScrollfoodList"
+            android:label="@string/title_activity_scrollfood_list" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Alertdialoge"
+            android:label="@string/title_activity_alertdialoge" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Progressbar"
+            android:label="@string/title_activity_progressbar" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.ServicesExample"
+            android:label="@string/title_activity_services_example" >
+        </activity>
+
+        <service
+            android:name="com.example.myfirstproject.MyServices"
+            android:label="service" >
+        </service>
+
+        <receiver
+            android:name="com.example.myfirstproject.MyReceiver"
+            android:exported="false"
+            android:label="receiver" >
+        </receiver>
+
+        <!--
+        <provider
+            android:name="com.example.myfirstproject.StudentsProviders"
+            android:authorities="com.example.provider.college" >
+        </provider>
+        -->
+
+        <activity
+            android:name="com.example.myfirstproject.StudentDetails"
+            android:label="@string/title_activity_student_details" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Db_ProductActivity"
+            android:label="@string/title_activity_db__product" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.ProductIntentActivity"
+            android:label="@string/title_activity_product_intent" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.IntentproductMainActivity"
+            android:label="@string/title_activity_intentproduct_main" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.TabMainActivity"
+            android:label="@string/title_activity_tab_main" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.SongTabMainActivity"
+            android:label="@string/title_activity_song_tab_main" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.VedioTabMainActivity"
+            android:label="@string/title_activity_vedio_tab_main" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.PhotoTabMainActivity"
+            android:label="@string/title_activity_photo_tab_main" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.ContactMainActivity"
+            android:label="@string/title_activity_contact_main" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.PopupMenu1Activity"
+            android:label="@string/title_activity_popup_menu" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.OptionMenu1Activity"
+            android:label="@string/title_activity_option_menu1" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.MyFragmentsActivity"
+            android:label="@string/title_activity_my_fragments" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.TabFragmentActivity"
+            android:label="@string/title_activity_tab_fragment" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.BroadcastIntentActivity"
+            android:label="@string/title_activity_broadcast_intent" >
+        </activity>
+
+        <receiver
+            android:name="com.example.myfirstproject.Myreciever"
+            android:exported="false" >
+
+            <!--
+            <intent-filter>
+                <action android:name="com.jisha.CUSTOM_INTENT" />
+            </intent-filter>
+            -->
+        </receiver>
+
+        <activity
+            android:name="com.example.myfirstproject.IntentDemoActivity"
+            android:label="@string/title_activity_intent_demo" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.CustomIntentActivity"
+            android:label="@string/title_activity_custom_intent" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="com.example.Intentdemo.LAUNCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.SliddingdrawerActivity"
+            android:label="@string/title_activity_sliddingdrawer" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.DragNDropActivity"
+            android:label="@string/title_activity_drag_ndrop" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.SendemaildemoActivity"
+            android:label="@string/title_activity_sendemaildemo" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.NotificationsActivity"
+            android:label="@string/title_activity_notifications" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.NotificationView"
+            android:label="@string/title_activity_notification_view" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.ThreadMainActivity"
+            android:label="@string/title_activity_thread_main" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.Thread1Activity"
+            android:label="@string/title_activity_thread1" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.PreferencesActivity"
+            android:label="@string/title_activity_preferences" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.JSonParserActivity"
+            android:label="@string/title_activity_json_parser" >
+           
+        </activity>
+        <activity
+            android:name="com.example.myfirstproject.MediaPlayerActivity"
+            android:label="@string/title_activity_media_player" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

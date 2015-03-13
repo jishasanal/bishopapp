@@ -1,0 +1,27 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuhome"
+        android:title="@string/home"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menucontactus"
+        android:title="@string/contactus"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menugalary"
+        android:title="@string/galary"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menumail"
+        android:title="@string/mail"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menusearch"
+        android:title="@string/search"
+        android:showAsAction="always"/>
+    
+</menu>
+
+   

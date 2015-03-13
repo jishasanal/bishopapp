@@ -1,0 +1,59 @@
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtdbname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:text="@string/dbname"
+            />
+
+    <EditText
+        android:id="@+id/edtdbname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtdbgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:text="@string/dbgrade"
+        />
+
+    <EditText
+        android:id="@+id/edtdbgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btninsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="41dp"
+        android:onClick="onClickAddMe"
+        android:text="@string/insert" />
+
+    <Button
+        android:id="@+id/btnret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retrive" />
+
+</LinearLayout>
